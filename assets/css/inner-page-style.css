@@ -1,0 +1,721 @@
+/* ===========================*** DEVT:[A-101] ***=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Fira+Sans&family=Jost:wght@400;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,400;0,500;0,600;0,900;1,300;1,800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Fira+Sans&family=Jost:wght@400;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,400;0,500;0,600;0,900;1,300;1,800&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --top-header-background: #001102;
+    --main-header-background: #fbab33;
+    --banner-button-background: #fbab33;
+}
+
+/* ============================== inner banner area start=============================*/
+.main-inner-banner-section {
+    position: relative;
+}
+.inner-banner-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.inner-banner-img::before {
+    content: "";
+    background-color: #0000009e;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.inner-page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.inner-page-title h2 {
+    font-family: 'Ubuntu';
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--white);
+}
+/* ============================== /inner banner area end=============================*/
+
+/* ============================== inner about area start=============================*/
+.inr-main-about-section{
+    position: relative;
+    padding: 120px 0 70px;
+} 
+.inr-main-about-section .sec-title{
+    margin-bottom: 15px;
+}
+.inr-main-about-section .sec-title span {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.inr-main-about-section .sec-title h2 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 28px;
+}
+.inr-main-about-section .inner-column p {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 13px;
+}
+.inr-main-about-section .content-column{
+    position: relative;
+    margin-bottom: 50px;
+} 
+.inr-main-about-section .content-column .inner-column{
+    position: relative;
+    padding-left: 30px;
+} 
+.inr-main-about-section .list-style-one{
+    margin-bottom: 45px;
+} 
+.inr-main-about-section .btn-box{
+    position: relative;
+}  
+.inr-main-about-section .btn-box a{
+    padding: 15px 50px;
+} 
+.inr-main-about-section .image-column{
+    position: relative;
+} 
+.inr-main-about-section .image-column .text-layer{
+    position: absolute;
+    right: -110px;
+    top: 50%;
+    font-size: 325px;
+    line-height: 1em;
+    color: #FFFFFF;
+    margin-top: -175px;
+    font-weight: 500;
+} 
+.inr-main-about-section .image-column .inner-column{
+    position: relative;
+    padding-left: 80px;
+    padding-bottom: 0px;
+}
+.inr-main-about-section .image-column .inner-column .author-desc{
+    position: absolute;
+    bottom: 16px;
+    z-index: 1;
+    background: #FBAB33;
+    padding: 10px 15px;
+    left: 96px;
+    width: calc(100% - 152px);
+    border-radius: 50px;
+}
+.inr-main-about-section .image-column .inner-column .author-desc h2{
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: #FFFFFF;
+    margin: 0;
+}
+.inr-main-about-section .image-column .inner-column .author-desc span{
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: #FFFFFF;
+    display: block;
+    font-weight: 400;
+}
+.inr-main-about-section .image-column .inner-column:before{
+    content: '';
+    position: absolute;
+    width: calc(50% + 80px);
+    height: calc(100% + 160px);
+    top: -80px;
+    left: -3px;
+    background: transparent;
+    z-index: 0;
+    border: 44px solid #FBAB33;
+}
+  
+.inr-main-about-section .image-column .image-1{
+    position: relative;
+}
+.inr-main-about-section .image-column .image-2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.inr-main-about-section .image-column .image-2 img,
+.inr-main-about-section .image-column .image-1 img{
+    box-shadow: 0 30px 50px rgba(8,13,62,.15);
+    border-radius: 46px;
+}
+/* ============================== /inner about css end=============================*/ 
+
+/* ===================*** inner-blog area css start ***===================== */
+.inr-blogs-section {
+    position: relative;
+    padding: 50px 0;
+}
+.inr-blogs-card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.inr-blogs-card-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.inr-blogs-card-body {
+    padding: 20px;
+}
+.inr-blogs-card-body h2 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    height: 100px;
+}
+.inr-blogs-card-body p {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 13px;
+    height: 150px;
+}
+.inr-blogs-card-button {
+    padding: 20px;
+}
+.inr-blogs-card-button a {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--white);
+    background-color: var(--banner-button-background);
+    border: 1px solid var(--banner-button-background);
+    padding: 10px 35px;
+    transition: all .5s ease;
+}
+.inr-blogs-card-button a:hover {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--banner-button-background);
+    border: 1px solid var(--banner-button-background);
+    background-color: transparent;
+    padding: 10px 35px;
+}
+/* ===================*** /inner-blog area css end ***===================== */
+
+/* ==================*** inner-blog-details page css start ***==================== */
+.main-blog-details-section {
+    position: relative;
+    padding: 50px;
+}
+.blog-left-details {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.blog-left-details .blog-details-photo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.blog-left-details .blog-details-content {
+    padding: 20px;
+}
+.blog-left-details .blog-details-content h2 {
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+.blog-details-content p {
+    font-size: 13px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.latest-post-aside {
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid #e8e8e8;
+    padding: 10px 0 10px 0;
+}
+.lpa-title h5 a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: var(--black);
+    transition: all .3s ease;
+}
+.lpa-title h5 a:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: var(--banner-button-background);
+}
+.widget-title h3 {
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.widget.widget-latest-post {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+}
+.lpa-right a img {
+    width: 80px;
+    height: 65px;
+    object-fit: cover;
+}
+.lpa-meta {
+    display: inline-flex;
+}
+.lpa-meta a {
+    font-family: 'Ubuntu';
+    color: var(--black);
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* ---------- search box -------- */
+.i-blog-search {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px 20px 35px 20px;
+    margin-bottom: 20px;
+}
+.i-blog-search h2 {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid var(--banner-button-background);
+}
+.search-box input:focus-visible {
+    outline: none;
+}
+.search-box .search-button button {
+    padding: 7px;
+    width: 50px;
+    border: none;
+    background-color: var(--banner-button-background);
+    color: var(--white);
+}
+/* ---------- search box -------- */
+/* ==================*** /inner-blog-details page css end ***==================== */
+
+/* ==================*** inner-contact us page css start ***==================== */
+.inr-centect-section {
+    position: relative;
+    padding: 50px 0;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contact-details h2 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 30px;
+}
+.contact-details p {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+}
+.contact-details p i{
+    color: var(--banner-button-background);
+}
+.contact-details p a {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+}
+.contact-form {
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 35px;
+}
+.contact-form .text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--banner-button-background);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+.contact-form .text-input:focus-visible {
+    border: 1px solid var(--black);
+    outline: none;
+}
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--banner-button-background);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+.contact-form textarea:focus-visible {
+    border: 1px solid var(--black);
+    outline: none;
+}
+.contact-form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form-button .submit-input {
+    border: 1px solid var(--banner-button-background);
+    background-color: var(--banner-button-background);
+    color: var(--white);
+    padding: 12px 65px;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+.contact-form-button .submit-input:hover {
+    border: 1px solid var(--banner-button-background);
+    background-color: transparent;
+    color: var(--banner-button-background);
+    padding: 12px 65px;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 500;
+}
+/* ==================*** /inner-contact us page css end ***==================== */
+
+/* ==================*** inner-icbc page css start ***==================== */
+.inr-icbc-section {
+    position: relative;
+    padding: 50px 0;
+}
+.icbc-card {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.icbc-card .icbc-img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.icbc-card .icbc-body h2 a {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--banner-button-background);
+    transition: all .5s ease;
+}
+.icbc-card .icbc-body h2 a:hover {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+}
+.icbc-card .icbc-body p {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+}
+.icbc-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icbc-button a {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--banner-button-background);
+    border: 1px solid var(--banner-button-background);
+    padding: 10px 50px;
+    transition: all .5s ease;
+}
+.icbc-button a:hover {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--banner-button-background);
+    background-color: transparent;
+    border: 1px solid var(--banner-button-background);
+    padding: 10px 50px;
+}
+/* ==================*** /inner-icbc page css end ***==================== */
+
+/* ==================*** inner-courses page css start ***==================== */
+.inr-courses-section {
+    position: relative;
+    padding: 50px 0;
+}
+.courses {
+    padding-bottom: 20px;
+    transition: all .5s ease;
+}
+.courses:hover {
+    padding-bottom: 20px;
+    background-color: #ff990030;
+}
+.courses-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.courses-body {
+    padding: 10px 0 0 0;
+}
+.courses-body h2 {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--black);
+}
+.courses-body p {
+    font-family: 'Ubuntu';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #ff0000;
+}
+.courses-body p del {
+    font-family: 'Ubuntu';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #00000094;
+}
+.courses-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.courses-button a {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: var(--banner-button-background);
+    color: var(--white);
+    padding: 10px 35px;
+    transition: all .5s ease;
+}
+.courses-button a:hover {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: var(--white);
+    color: var(--banner-button-background);
+    padding: 10px 35px;
+}
+/* ==================*** /inner-courses page css end ***==================== */
+
+/* ==================*** inner-single-courses page css start ***==================== */
+.inr-single-courses-section {
+    position: relative;
+    padding: 50px 0;
+}
+.single-courses-img img {
+    width: 100%;
+    height: auto;
+}
+.single-courses-content .single-course-title {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 700;
+}
+.single-courses-content p {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+}
+.price-button-group {
+    padding: 20px 0;
+}
+.price-button-group .single-course-price {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff0000;
+}
+.price-button-group .price-button {
+    padding-top: 10px;
+}
+.price-button-group .price-button input {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: var(--banner-button-background);
+    color: var(--white);
+    padding: 10px 35px;
+    transition: all .5s ease;
+}
+.price-button-group .price-button :hover {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: transparent;
+    color: var(--banner-button-background);
+    padding: 10px 35px;
+}
+.single-course-details-chart h2 {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 700;
+}
+.single-course-details-chart table tr td {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+}
+.single-course-note {
+    padding-top: 35px;
+}
+.single-course-note span {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--banner-button-background);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.single-course-note h2 {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff0000;
+}
+.single-course-details-content .single-course-details-title {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.single-course-details-content .single-course-details-point {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.single-course-details-content p {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ==================*** /inner-single-courses page css end ***==================== */
+
+/* =================*** inner-register-course page css start ***==================== */
+.inr-register-section {
+    position: relative;
+    padding: 50px 0;
+}
+.register-card {
+    position: relative;
+    background-color: var(--banner-button-background);
+    padding: 50px;
+}
+.register-card:hover .straight-line {
+    width: 15vw;
+    height: 2px;
+    background-color: var(--white);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16.5%;
+}
+.register-card .register-title-01 {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.register-card .register-title-02 {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register-card .register-title-03 {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+}
+.pagkage .pagkage-title {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pagkage ul {
+    list-style: square;
+}
+.pagkage ul li {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 500;
+}
+.straight-line {
+    width: 15vw;
+    height: 2px;
+    background-color: #ffffff69;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16.5%;
+    transition: all .5s ease;
+}
+.register-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.register-button a {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.register-button a:hover {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid var(--black);
+    color: var(--black);
+    padding: 8px 25px;
+}
+/* ==================*** /inner-register-course page css end ***==================== */

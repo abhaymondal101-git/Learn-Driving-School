@@ -1,0 +1,499 @@
+@media (min-width: 1920px) and (max-width: 2560px) {
+    body {
+        background-color: red;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 50px;
+        width: 39vw;
+    }
+    .train-driver-card-button:after {
+        top: -50px;
+        right: 150px;
+    }
+    .news-image img {
+        height: 395px;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .train-driver-card-button:after {
+        top: -40px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .nav-logo::after {
+        right: -45px;
+    }
+    .nav-menu ul {
+        gap: 8px;
+    }
+    .nav-button a {
+        padding: 5px 10px;
+    }
+    .nav-menu {
+        gap: 15px;
+    }
+    .nav-logo img {
+        height: 30px;
+    }
+    .train-driver-top-content {
+        padding: 0 50px 25px 50px;
+    }
+    .train-driver-card-button:after {
+        right: 60px;
+    }
+    .main-service-card {
+        align-items: flex-start;
+    }
+    .news-image .news-img-content h5 {
+        font-size: 14px;
+    }
+    .news-card {
+        padding: 6.5px;
+    }
+    .footer-main-div {
+        width: 60vw;
+    }
+    .footer-division-01 p {
+        width: 10vw;
+    }
+    .footer-bottom .copy-right p {
+        font-size: 11px;
+    }
+    .footer-bottom {
+        width: 60vw;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .main-header {
+        display: none;
+    }
+    .nav-mobile {
+        display: block;
+    }
+    .header-top-menu {
+        width: 90vw;
+    }
+    /*=============================== mobile navbar css start ===============================*/
+    .nav-mobile {
+        height: 0px;
+        z-index: 999;
+        position: relative;
+    }
+    .nav-mobile-lower li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Jost";
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-mobile-upper {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 2rem;
+        background-color: rgb(251 171 51);
+    }
+    .nav-mobile-upper div img {
+        width: 50%;
+        height: auto;
+    }
+    .nav-mobile-lower {
+        margin-top: -5px;
+        background-color: var(--banner-button-background);
+        /* transition-duration: 300ms; */
+       transition: all .5s ease-out;
+        position: relative;
+        z-index: 1000;
+        border-top: 1px solid #fff;
+    }
+    .nav-mobile-lower ul {
+        padding: 0;
+    }
+    .nav-mobile-lower ul li {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: #fff;
+        margin-top: 10px;
+        background-color: #f1a431;
+    }
+    .nav-mobile-lower ul li:hover {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: #fff;
+        margin-top: 10px;
+        background-color: #df9a32;
+    }
+    .nav-button {
+        padding: 0 0 30px 10px;
+    }
+    .translateCss {
+        transform: translateY(-100rem);
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: var(--white);
+        margin: 5px 0;
+    }
+    .ham-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bar:nth-child(1) {
+        transition-duration: 300ms;
+    }
+    .bar:nth-child(3) {
+        transition-duration: 300ms;
+    }
+    /*=============================== /mobile navbar css end ===============================*/
+
+    .main-about-section {
+        padding: 50px 0;
+    }
+    .main-about-section .main-about-body {
+        flex-direction: column;
+    }
+    .main-train-driver-section {
+        padding: 50px 0;
+    }
+    .train-driver-top-content {
+        padding: 0;
+        gap: 0;
+        flex-direction: column;
+    }
+    .train-driver-top-content p {
+        width: 100%;
+    }
+    .train-driver-card-button:after {
+        top: -40px;
+        right: 175px;
+    }
+    .service-container {
+        padding: 50px 0;
+    }
+    .scene {
+        background-image: none;
+        padding-bottom: 0;
+    }
+    .sky {
+        display: none;
+    }
+    .main-service-card {
+        flex-direction: column;
+    }
+    .main-news-section {
+        padding: 50px 0;
+    }
+    .news-card-row {
+        padding-top: 10px;
+    }
+    .news-image .news-img-content {
+        width: 90%;
+    }
+    .footer-main-div {
+        flex-direction: column;
+    }
+    .footer-bottom {
+        width: 100%;
+    }
+    .inner-page-title h2 {
+        font-size: 28px;
+    }
+    /* about page 769px to 1365px start -----*/
+    .inr-main-about-section .content-column .inner-column {
+        position: relative;
+        padding-left: 0;
+        padding-top: 100px;
+    }
+    /* about page 769px to 1365px end ------*/
+
+    /* contact page 769px to 1365px end ------*/
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    /* contact page 769px to 1365px end ------*/
+
+    /* explore courses page 769px to 1365px start ------*/
+    .courses-body h2 {
+        height: 50px;
+    }
+    /* explore courses page 769px to 1365px end ------*/
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-mobile {
+        display: block;
+    }
+    .main-header {
+        display: none;
+    }
+    .header-top-menu {
+        flex-direction: column;
+        width: 100%;
+        padding: 2px 0;
+    }
+    .h-top-email-phone p a {
+        font-size: 9px;
+    }
+    .h-top-email-phone p:first-child::after {
+        height: 15px;
+    }
+    .h-top-address p a {
+        font-size: 9px;
+    }
+    .main-banner-secrion {
+        position: relative;
+        padding-top: 60px;
+    }
+    .main-banner-secrion .carousel-item img {
+        height: 250px;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption {
+        bottom: 40px;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption .banner-caption-01 {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption h1 {
+        font-size: 18px;
+        width: 100%;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption .banner-caption-02 {
+        width: 100%;
+        font-size: 12px;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption .carousel-caption-button a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .main-about-section {
+        padding: 50px 20px;
+    }
+    .main-about-section .main-about-body {
+        flex-direction: column;
+    }
+    .main-about-content h2 {
+        font-size: 20px;
+    }
+    .main-about-image img {
+        height: 100%;
+        width: 250px;
+    }
+    .train-driver-top-content {
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 15px;
+    }
+    .train-driver-top-content h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .train-driver-top-content p {
+        width: 100%;
+    }
+    .main-train-driver-section {
+        padding: 50px 20px;
+    }
+    .train-driver-card-button:after {
+        right: 185px;
+        position: absolute;
+    }
+    .service-container {
+        padding: 50px 20px 0 20px;
+    }
+    .main-service-section .main-service-title p {
+        text-align: center;
+        font-family: 'Ubuntu';
+        font-weight: 500;
+        font-size: 14px;
+        width: 100%;
+    }
+    .scene {
+        padding-bottom: 50px;
+        background-image: none;
+    }
+    .sky {
+        display: none;
+    }
+    .main-news-section {
+        padding: 50px 20px;
+    }
+    .news-title h2 {
+        font-size: 20px;
+    }
+    .news-title p {
+        width: 100%;
+    }
+    .news-image .news-img-content {
+        width: 65vw;
+    }
+    .main-footer-section {
+        padding: 50px 20px 0 20px;
+    }
+    .footer-division-01 p {
+        width: 100%;
+    }
+    .footer-main-div {
+        flex-direction: column;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption .carousel-caption-button a:hover {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    /*=============================== mobile navbar css start ===============================*/
+    .nav-mobile {
+        height: 0px;
+        z-index: 999;
+        position: relative;
+    }
+    .nav-mobile-lower li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Jost";
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-mobile-upper {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 2rem;
+        background-color: rgb(251 171 51);
+    }
+    .nav-mobile-upper div img {
+        width: 50%;
+        height: auto;
+    }
+    .nav-mobile-lower {
+        margin-top: -5px;
+        background-color: var(--banner-button-background);
+        /* transition-duration: 300ms; */
+       transition: all .5s ease-out;
+        position: relative;
+        z-index: 1000;
+        border-top: 1px solid #fff;
+    }
+    .nav-mobile-lower ul {
+        padding: 0;
+    }
+    .nav-mobile-lower ul li {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: #fff;
+        margin-top: 10px;
+        background-color: #f1a431;
+    }
+    .nav-mobile-lower ul li:hover {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: #fff;
+        margin-top: 10px;
+        background-color: #df9a32;
+    }
+    .nav-button {
+        padding: 0 0 30px 10px;
+    }
+    .translateCss {
+        transform: translateY(-100rem);
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: var(--white);
+        margin: 5px 0;
+    }
+    .ham-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bar:nth-child(1) {
+        transition-duration: 300ms;
+    }
+    .bar:nth-child(3) {
+        transition-duration: 300ms;
+    }
+    /*=============================== /mobile navbar css end ===============================*/
+
+    /* ============================= inner-banner page css start ================================ */
+    .inner-page-title h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    /* ============================= /inner-banner page css end ================================ */
+
+    /* ============================= about page css start ================================ */
+    .inr-main-about-section .image-column .image-2 img,
+    .inr-main-about-section .image-column .image-1 img{
+        width: 100%;
+    }
+    .inr-main-about-section .image-column .inner-column .author-desc h2 {
+        font-size: 14px;
+    }
+    .inr-main-about-section .image-column .inner-column .author-desc span {
+        font-size: 9px;
+    }
+    .inr-main-about-section .content-column .inner-column {
+        padding: 100px 20px 0 20px;
+    }
+    /* ============================= /about page css end ================================ */
+
+    /* ============================= icbc page css start ================================ */
+    .icbc-card .icbc-body h2 a {
+        font-size: 16px;
+    }
+    /* ============================= /icbc page css end =====================================*/ 
+
+    /* ============================= blog-details page css start ============================ */
+    .main-blog-details-section {
+        padding: 50px 20px;
+    }
+    /* ============================= /blog-details page css end ================================ */
+
+    /* ============================= contact page css start ================================ */
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 90%;
+        padding: 20px;
+    }
+    /* ============================= /contact page css end ================================ */
+
+}
+
+@media(min-width: 240px) and (max-width: 440px) {
+    .train-driver-card-button:after {
+        right: 147px;
+    }
+}
